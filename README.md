@@ -39,3 +39,7 @@ Implement lifecycle policies everywhere. Set up S3 lifecycle rules to automatica
 Security Best Practices
 Never hardcode credentials. Use IAM roles for EC2 instances, Lambda functions, and other services. Store secrets in AWS Secrets Manager or Parameter Store with encryption. Rotate credentials regularly using automated processes.
 Apply the principle of least privilege religiously. Start with minimal permissions and add only what's needed. Use AWS Config rules to monitor for overly permissive policies and regularly audit IAM permissions with Access Analyzer.
+
+Architecture Patterns
+Design for failure from day one. Deploy across multiple Availability Zones, implement health checks, and use Auto Scaling Groups. Plan for what happens when each component fails - your database, load balancer, or entire AZ going down.
+Embrace serverless where it makes sense. Lambda functions with API Gateway can replace simple web applications at a fraction of the cost and operational overhead. Use Step Functions for complex workflows instead of managing your own orchestration.
