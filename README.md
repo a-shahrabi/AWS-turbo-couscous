@@ -30,3 +30,7 @@ RDS: Multi-AZ vs Read Replicas, automated backups, encryption
 DynamoDB: Partition/sort keys, GSI/LSI, on-demand vs provisioned
 Aurora: MySQL/PostgreSQL compatible, serverless option
 ElastiCache: Redis vs Memcached use cases
+
+Cost Optimization
+Use the right instance types for the job. Many people default to general-purpose instances, but compute-optimized (C5) or memory-optimized (R5) instances often provide better price-performance for specific workloads. Always check the AWS calculator and consider Reserved Instances or Spot instances where appropriate.
+Implement lifecycle policies everywhere. Set up S3 lifecycle rules to automatically transition data to cheaper storage classes (IA, Glacier) and delete old logs. Configure RDS automated backups with appropriate retention periods rather than keeping everything forever.
