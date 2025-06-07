@@ -43,3 +43,6 @@ Apply the principle of least privilege religiously. Start with minimal permissio
 Architecture Patterns
 Design for failure from day one. Deploy across multiple Availability Zones, implement health checks, and use Auto Scaling Groups. Plan for what happens when each component fails - your database, load balancer, or entire AZ going down.
 Embrace serverless where it makes sense. Lambda functions with API Gateway can replace simple web applications at a fraction of the cost and operational overhead. Use Step Functions for complex workflows instead of managing your own orchestration.
+
+Concentrate on building strong foundational knowledge of key AWS services like EC2, Lambda, S3, DynamoDB, CloudFront, and RDS, particularly how to use them for reducing costs and improving performance.
+While you should understand these essential services deeply, you don't need to memorize exact numbers or default configurations. The goal is to learn how to properly integrate these services into well-designed system architectures.
