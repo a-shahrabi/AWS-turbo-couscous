@@ -46,3 +46,8 @@ Embrace serverless where it makes sense. Lambda functions with API Gateway can r
 
 Concentrate on building strong foundational knowledge of key AWS services like EC2, Lambda, S3, DynamoDB, CloudFront, and RDS, particularly how to use them for reducing costs and improving performance.
 While you should understand these essential services deeply, you don't need to memorize exact numbers or default configurations. The goal is to learn how to properly integrate these services into well-designed system architectures.
+
+EC2: Offers the most control with the highest overhead. Ideal for applications requiring specific configurations.
+Fargate: Managed container service with moderate overhead. Easier cloud migration with less code rewriting compared to Lambda. Suitable for those seeking simplicity without server management.
+Lambda: Least overhead with automatic scaling and server management. Best for event-driven, stateless applications. Requires more code adjustments for migration compared to Fargate.
+In essence, EC2 for control, Fargate for managed containers with ease of migration, and Lambda for serverless simplicity.
