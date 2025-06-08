@@ -1,6 +1,7 @@
 # AWS Solutions Architect Associate (SAA) Study Guide
 
-## 📚 Table of Contents
+## Having gpt on the side to ask questions
+## Contents
 - [Core Concepts](#core-concepts)
 - [Compute Services](#compute-services)
 - [VPC & Networking](#vpc--networking)
