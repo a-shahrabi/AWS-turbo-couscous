@@ -29,3 +29,13 @@
 
 ### EC2 (Elastic Compute Cloud)
 **What it is**: Virtual servers in the cloud
+
+
+Instance Types (Critical for Exam)
+EC2 comes in different "flavors" optimized for different tasks:
+
+General Purpose (t3, m5) - balanced CPU/memory, good for web servers
+Compute Optimized (c5) - high-performance CPUs for intensive tasks
+Memory Optimized (r5, x1) - lots of RAM for databases
+Storage Optimized (i3) - fast local storage for data processing
+GPU instances (p3, g4) - for machine learning, graphics
