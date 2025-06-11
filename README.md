@@ -31,7 +31,7 @@
 **What it is**: Virtual servers in the cloud
 
 
-Instance Types (Critical for Exam)
+Instance Types:
 EC2 comes in different "flavors" optimized for different tasks:
 
 General Purpose (t3, m5) - balanced CPU/memory, good for web servers
