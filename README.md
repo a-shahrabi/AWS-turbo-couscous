@@ -39,3 +39,7 @@ Compute Optimized (c5) - high-performance CPUs for intensive tasks
 Memory Optimized (r5, x1) - lots of RAM for databases
 Storage Optimized (i3) - fast local storage for data processing
 GPU instances (p3, g4) - for machine learning, graphics
+
+Internet → Route 53 (DNS) → CloudFront (CDN) → 
+Application Load Balancer → Auto Scaling Group (EC2) → 
+RDS Multi-AZ + ElastiCache → S3 (static files)
