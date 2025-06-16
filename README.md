@@ -43,3 +43,17 @@ GPU instances (p3, g4) - for machine learning, graphics
 Internet → Route 53 (DNS) → CloudFront (CDN) → 
 Application Load Balancer → Auto Scaling Group (EC2) → 
 RDS Multi-AZ + ElastiCache → S3 (static files)
+
+EC2 Fundamentals
+
+Virtual servers in the cloud that you can configure and control
+Pay only for what you use (by the second for Linux, by the hour for Windows)
+Can scale up/down or in/out based on demand
+
+Instance Types (Family + Size)
+
+General Purpose: t3, t4g, m5, m6i (balanced CPU/memory)
+Compute Optimized: c5, c6i (high-performance processors)
+Memory Optimized: r5, r6i, x1e (high memory-to-CPU ratio)
+Storage Optimized: i3, i4i, d3 (high sequential read/write)
+Accelerated Computing: p3, p4, g4 (GPU instances)
