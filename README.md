@@ -77,3 +77,18 @@ Accelerated Computing: p3, p4, g4 (GPU instances)
 | **Savings Plan**            | Flexible pricing model       | Discount for commitment             |
 | **Dedicated Host/Instance** | Physical server for your use | Compliance, licensing needs         |
 
+
+| Feature        | Description              |
+| -------------- | ------------------------ |
+| EC2            | Scalable virtual servers |
+| AMI            | Template for instances   |
+| EBS            | Persistent block storage |
+| Security Group | Virtual firewall         |
+| Key Pair       | SSH credentials          |
+| ELB            | Load balancing           |
+| Auto Scaling   | Adjust instance count    |
+| IAM Role       | Grant permissions to EC2 |
+| VPC/Subnet     | Networking setup         |
+| CloudWatch     | Monitoring & alerts      |
+
+
