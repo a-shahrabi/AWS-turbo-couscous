@@ -68,3 +68,12 @@ Accelerated Computing: p3, p4, g4 (GPU instances)
 | i3     | Storage-optimized          |
 | hpc6   | High performance computing |
 
+
+| Option                      | Description                  | Use Case                            |
+| --------------------------- | ---------------------------- | ----------------------------------- |
+| **On-Demand**               | Pay per hour/second          | Short-term, unpredictable workloads |
+| **Reserved**                | Commit 1-3 years             | Steady workloads, cost savings      |
+| **Spot**                    | Bid on unused capacity       | Flexible workloads, big savings     |
+| **Savings Plan**            | Flexible pricing model       | Discount for commitment             |
+| **Dedicated Host/Instance** | Physical server for your use | Compliance, licensing needs         |
+
