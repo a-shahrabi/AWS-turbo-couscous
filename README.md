@@ -57,3 +57,14 @@ Compute Optimized: c5, c6i (high-performance processors)
 Memory Optimized: r5, r6i, x1e (high memory-to-CPU ratio)
 Storage Optimized: i3, i4i, d3 (high sequential read/write)
 Accelerated Computing: p3, p4, g4 (GPU instances)
+
+| Family | Use Case                   |
+| ------ | -------------------------- |
+| t3/t4  | General Purpose            |
+| c5/c6  | Compute-optimized          |
+| m5/m6  | Balanced (General)         |
+| r5/r6  | Memory-optimized           |
+| p3/p4  | GPU for ML/AI              |
+| i3     | Storage-optimized          |
+| hpc6   | High performance computing |
+
