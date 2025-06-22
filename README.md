@@ -92,3 +92,18 @@ Accelerated Computing: p3, p4, g4 (GPU instances)
 | CloudWatch     | Monitoring & alerts      |
 
 
+
+
+S3 Storage Classes: 
+
+
+Standard - Frequently accessed, highest cost, 99.999999999% (11 9's) durability
+Standard-IA - Infrequent access, 30-day minimum, retrieval fees
+One Zone-IA - Single AZ, 20% cheaper than Standard-IA, less availability
+Intelligent-Tiering - Automatically moves objects between tiers based on access
+Glacier Instant Retrieval - Archive with millisecond access, 90-day minimum
+Glacier Flexible Retrieval - 1-12 hours retrieval, 90-day minimum
+Glacier Deep Archive - Cheapest, 12-48 hours retrieval, 180-day minimum
+
+Lifecycle Policies
+Automatically transition objects between storage classes:
