@@ -107,3 +107,26 @@ Glacier Deep Archive - Cheapest, 12-48 hours retrieval, 180-day minimum
 
 Lifecycle Policies
 Automatically transition objects between storage classes:
+
+
+Versioning (You enabled this!)
+
+Keeps multiple versions of objects
+Protects against accidental deletion
+Previous versions can be in different storage classes
+Delete markers for "deleted" objects
+
+Security & Access Control
+
+Bucket Policies - JSON policies attached to buckets
+ACLs - Legacy permissions (AWS recommends bucket policies)
+Block Public Access - Safety net to prevent accidental exposure
+Pre-signed URLs - Temporary access to private objects
+
+Advanced Features
+
+Cross-Region Replication (CRR) - Copy objects to different regions
+Same-Region Replication (SRR) - Copy within same region
+Transfer Acceleration - Use CloudFront edge locations for faster uploads
+Multipart Upload - Upload large files in pieces
+S3 Select - Query data without downloading entire object
