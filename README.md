@@ -159,4 +159,21 @@ S3 Select - Query data without downloading entire object
 - **NAT Gateway** - Managed by AWS, highly available
 - **NAT Instance** - EC2 instance you manage (legacy)
 
+**Security Layers**
+
+**5. Security Groups (Instance Level)**
+- **Stateful** - if you allow inbound, response is automatically allowed outbound
+- **Allow rules only** - cannot deny traffic
+- Default: deny all inbound, allow all outbound
+
+**6. Network ACLs (Subnet Level)**
+- **Stateless** - must explicitly allow both inbound AND outbound
+- **Allow and deny rules** - processed in order
+- Default: allow all traffic
+
+**Advanced Networking**
+- **VPC Peering** - Connect two VPCs privately
+- **Transit Gateway** - Central hub connecting multiple VPCs
+- **VPC Endpoints** - Private connection to AWS services (no internet needed)
+
 
