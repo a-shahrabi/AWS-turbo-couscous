@@ -130,3 +130,33 @@ Same-Region Replication (SRR) - Copy within same region
 Transfer Acceleration - Use CloudFront edge locations for faster uploads
 Multipart Upload - Upload large files in pieces
 S3 Select - Query data without downloading entire object
+
+
+**VPC Fundamentals**
+- **Virtual Private Cloud** - Your own isolated network in AWS
+- **CIDR Blocks** - Define IP address ranges (e.g., 10.0.0.0/16 = 65,536 IP addresses)
+- **Region-specific** - Each VPC exists in one region but can span multiple AZs
+
+**Core Components**
+
+**1. Subnets**
+- **Public Subnet** - Has route to Internet Gateway (can reach internet)
+- **Private Subnet** - No direct internet access (more secure)
+- **Each subnet exists in ONE Availability Zone**
+
+**2. Route Tables**
+- Control where network traffic goes
+- Each subnet must be associated with a route table
+- **0.0.0.0/0** means "all traffic" (default route)
+
+**3. Internet Gateway (IGW)**
+- Allows communication between VPC and internet
+- One per VPC, highly available
+- Required for public subnets
+
+**4. NAT Gateway/Instance**
+- Allows private subnets to reach internet (outbound only)
+- **NAT Gateway** - Managed by AWS, highly available
+- **NAT Instance** - EC2 instance you manage (legacy)
+
+
