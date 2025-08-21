@@ -176,4 +176,24 @@ S3 Select - Query data without downloading entire object
 - **Transit Gateway** - Central hub connecting multiple VPCs
 - **VPC Endpoints** - Private connection to AWS services (no internet needed)
 
+```
+Design durable, secure, cost-optimized object storage with the right:
+
+Access controls (block public, bucket policy, IAM, Access Points)
+
+Data protection (encryption, versioning, Object Lock)
+
+Lifecycle & storage class choices
+
+Replication/DR patterns
+
+Private access via VPC endpoints
+
+Event integrations (S3→Lambda/SNS/SQS/EventBridge)
+
+Performance & upload (multipart, Transfer Acceleration)
+
+Durability: 11 nines (99.999999999%); region-scoped service; strong read-after-write consistency for PUT/DELETE and LIST.
+```
+
 
