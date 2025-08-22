@@ -196,4 +196,14 @@ Performance & upload (multipart, Transfer Acceleration)
 Durability: 11 nines (99.999999999%); region-scoped service; strong read-after-write consistency for PUT/DELETE and LIST.
 ```
 
+```
+Picker order: Image, Size, Network, Lock, Disk, Role, Script
+
+Families: C M R G I T (Compute, Multi, RAM, GPU, IO, T-burst)
+
+SG = Stateful; NACL = Numbered stateless
+
+EBS persists; Instance Store disappears
+```
+
 
