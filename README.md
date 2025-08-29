@@ -1,6 +1,5 @@
 # AWS Solutions Architect Associate (SAA) Study Guide
 
-## Having gpt on the side to ask questions
 ## Contents
 - [Core Concepts](#core-concepts)
 - [Compute Services](#compute-services)
