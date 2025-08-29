@@ -139,6 +139,7 @@ S3 Select - Query data without downloading entire object
 
 **Core Components**
 
+```
 **1. Subnets**
 - **Public Subnet** - Has route to Internet Gateway (can reach internet)
 - **Private Subnet** - No direct internet access (more secure)
@@ -175,6 +176,8 @@ S3 Select - Query data without downloading entire object
 - **VPC Peering** - Connect two VPCs privately
 - **Transit Gateway** - Central hub connecting multiple VPCs
 - **VPC Endpoints** - Private connection to AWS services (no internet needed)
+
+```
 
 ```
 Design durable, secure, cost-optimized object storage with the right:
