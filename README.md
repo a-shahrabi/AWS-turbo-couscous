@@ -208,8 +208,9 @@ SG = Stateful; NACL = Numbered stateless
 EBS persists; Instance Store disappears
 ```
 
+
+### Amazon EC2: Comprehensive Beginner’s Guide for AWS Solutions Architect Associate (SAA) Exam
 ```
-# Amazon EC2: Comprehensive Beginner’s Guide for AWS Solutions Architect Associate (SAA) Exam
 Introduction to Amazon EC2 (Elastic Compute Cloud)
 
 Amazon Elastic Compute Cloud (EC2) is AWS’s core Infrastructure-as-a-Service (IaaS) offering that provides on-demand, resizable compute capacity in the cloud
