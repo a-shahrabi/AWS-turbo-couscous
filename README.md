@@ -221,3 +221,6 @@ aws.amazon.com
 aws.amazon.com
 . As part of the AWS ecosystem, EC2 often works alongside other services (for example, an application might run on EC2 but store data in Amazon S3 or use an AWS database service). This flexibility and integration make EC2 a fundamental building block in many cloud architectures.
 ```
+```
+Launching an EC2 instance involves choosing a machine image (AMI) as a template, selecting an instance type (virtual hardware profile), configuring networking (VPC, subnets, and assigning a security group firewall), and setting up access (key pairs for SSH/RDP). The instance by default gets a root storage volume (EBS). The diagram above illustrates these components in a basic EC2 setup.
+```
