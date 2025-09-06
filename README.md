@@ -224,3 +224,15 @@ aws.amazon.com
 ```
 Launching an EC2 instance involves choosing a machine image (AMI) as a template, selecting an instance type (virtual hardware profile), configuring networking (VPC, subnets, and assigning a security group firewall), and setting up access (key pairs for SSH/RDP). The instance by default gets a root storage volume (EBS). The diagram above illustrates these components in a basic EC2 setup.
 ```
+
+```
+Introduction to Amazon EC2 (Elastic Compute Cloud)
+
+Amazon Elastic Compute Cloud (EC2) is AWS’s core Infrastructure-as-a-Service (IaaS) offering that provides on-demand, resizable compute capacity in the cloud
+docs.aws.amazon.com
+. In simple terms, EC2 lets you launch virtual machines (called instances) on AWS’s global infrastructure. You have full control over the operating system and software on these instances, and you pay only for the compute time you use
+aws.amazon.com
+. EC2 is designed to easily scale up or down – you can quickly provision more servers during peak demand and shut them down when they’re no longer needed, enabling highly flexible “web-scale” computing
+aws.amazon.com
+. As part of the AWS ecosystem, EC2 often works alongside other services (for example, an application might run on EC2 but store data in Amazon S3 or use an AWS database service). This flexibility and integration make EC2 a fundamental building block in many cloud architectures
+```
