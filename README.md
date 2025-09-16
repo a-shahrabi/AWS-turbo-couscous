@@ -242,7 +242,7 @@ Amazon S3 Guide for AWS Solutions Architect – Associate (SAA) Exam
 What is Amazon S3 and How It Fits into AWS
 Amazon Simple Storage Service (S3) is a highly scalable object storage service in AWS. It allows you to store and retrieve unlimited amounts of data, from anywhere on the web, with high durability (designed for 99.999999999% durability, or “11 nines”
 aws.amazon.com
-) and availability. In the AWS ecosystem, S3 serves as a core storage backbone for a variety of use cases: data lakes, backups, archives, websites, mobile apps, IoT data, big data analytics, and more
-docs.aws.amazon.com
-. S3 is integrated with many other AWS services (like EC2, Lambda, Athena, Redshift, CloudTrail, etc.), making it a fundamental building block for architectures. It provides virtually infinite storage capacity and offloads the management of hardware, replication, and scaling to AWS.
+) and availability. In the AWS ecosystem, S3 serves as a core storage backbone for a variety of use cases: data lakes, backups, archives, websites, mobile apps, IoT data, big data analytics, and more.
+
+S3 is integrated with many other AWS services (like EC2, Lambda, Athena, Redshift, CloudTrail, etc.), making it a fundamental building block for architectures. It provides virtually infinite storage capacity and offloads the management of hardware, replication, and scaling to AWS.
 ```
