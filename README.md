@@ -1,4 +1,4 @@
-# AWS Solutions Architect Associate (SAA) Study Guide
+# AWS Solutions Architect Associate (SAA) Notes:
 
 ## Contents
 - [Core Concepts](#core-concepts)
