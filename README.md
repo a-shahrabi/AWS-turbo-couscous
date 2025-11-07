@@ -246,3 +246,7 @@ aws.amazon.com
 
 S3 is integrated with many other AWS services (like EC2, Lambda, Athena, Redshift, CloudTrail, etc.), making it a fundamental building block for architectures. It provides virtually infinite storage capacity and offloads the management of hardware, replication, and scaling to AWS.
 ```
+
+```
+Tip: Always prefer using Auto Scaling Groups (ASGs) with Elastic Load Balancers (ELBs) for high availability and fault tolerance.
+```
