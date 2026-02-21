@@ -1,4 +1,4 @@
-# AWS Solutions Architect Associate (SAA) Notes:
+# AWS Solutions Architect Associate (SAA) Exam Notes:
 
 ## Contents
 - [Core Concepts](#core-concepts)
